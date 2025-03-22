@@ -64,6 +64,8 @@
 		4FC7E12C2D8A8ABC005F58A3 /* GitUsersViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7E12B2D8A8ABC005F58A3 /* GitUsersViewModelTests.swift */; };
 		4FC7E12E2D8A92EE005F58A3 /* StubGitFeedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7E12D2D8A92EE005F58A3 /* StubGitFeedRepository.swift */; };
 		4FC7E1302D8ABA85005F58A3 /* SocialIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7E12F2D8ABA85005F58A3 /* SocialIndicatorView.swift */; };
+		6D4A76E82D8EF62A0048E82F /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A76E72D8EF62A0048E82F /* ToastView.swift */; };
+		6D4A76EA2D8EF6C20048E82F /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A76E92D8EF6C20048E82F /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +145,8 @@
 		4FC7E12B2D8A8ABC005F58A3 /* GitUsersViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUsersViewModelTests.swift; sourceTree = "<group>"; };
 		4FC7E12D2D8A92EE005F58A3 /* StubGitFeedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubGitFeedRepository.swift; sourceTree = "<group>"; };
 		4FC7E12F2D8ABA85005F58A3 /* SocialIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialIndicatorView.swift; sourceTree = "<group>"; };
+		6D4A76E72D8EF62A0048E82F /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		6D4A76E92D8EF6C20048E82F /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +300,8 @@
 				4F8055F62D8BE883009A1A04 /* ToastModifier.swift */,
 				4F8056062D8D1490009A1A04 /* SocialIndicatorViewModel.swift */,
 				4F8056142D8DA6CB009A1A04 /* ErrorView.swift */,
+				6D4A76E72D8EF62A0048E82F /* ToastView.swift */,
+				6D4A76E92D8EF6C20048E82F /* View+Extensions.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -578,9 +584,11 @@
 				4FC7E12A2D8A78CE005F58A3 /* UserCardView.swift in Sources */,
 				4F8056152D8DA6CB009A1A04 /* ErrorView.swift in Sources */,
 				4F820BA72D893EBB0013C002 /* GitUser.swift in Sources */,
+				6D4A76EA2D8EF6C20048E82F /* View+Extensions.swift in Sources */,
 				4F820BAE2D8941260013C002 /* LocalStorage.swift in Sources */,
 				4F8056032D8D1263009A1A04 /* Dependencies.swift in Sources */,
 				4F8055F22D8BD566009A1A04 /* LoadableView.swift in Sources */,
+				6D4A76E82D8EF62A0048E82F /* ToastView.swift in Sources */,
 				4F820BA52D893D7F0013C002 /* GitFeedRepository.swift in Sources */,
 				4F820BA02D893B3B0013C002 /* GitClient.swift in Sources */,
 				4F820B9E2D893AD60013C002 /* HTTPClient.swift in Sources */,

@@ -45,7 +45,7 @@ struct GitUsersView: View {
             }
         }
         .listStyle(.plain)
-        .toast(isPresented: $viewModel.showError, title: viewModel.errorTitle)
+        .toast(isPresented: $viewModel.showError, message: viewModel.errorTitle)
     }
     
     var loadMoreProgress: some View {

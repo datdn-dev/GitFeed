@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Represents detailed information about a user.
 struct GitUserDetail: Decodable {
     let id: Int
     let login: String

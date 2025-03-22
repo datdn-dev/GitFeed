@@ -9,5 +9,6 @@ import Foundation
 import SwiftUI
 
 extension Color {
+    /// Background color for social metric indicators
     static let indicatorBackgroundColor = Color("IndicatorColor")
 }

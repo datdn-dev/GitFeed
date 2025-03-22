@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct GitUsersView: View {
+    /// ViewModel
     @StateObject var viewModel: GitUsersViewModel
+    
+    /// App coodinator for navigating to detail screen.
     @EnvironmentObject private var coordinator: AppCoordinator
     
     var body: some View {
@@ -25,6 +28,7 @@ struct GitUsersView: View {
         }
     }
     
+    /// List of users with infinite scrolling and navigation support.
     var listUsersView: some View {
         List {
             ForEach(viewModel.users) { user in
@@ -48,6 +52,7 @@ struct GitUsersView: View {
         .toast(isPresented: $viewModel.showError, message: viewModel.errorTitle)
     }
     
+    /// Shows a loading indicator when fetching more users.
     var loadMoreProgress: some View {
         HStack {
             Spacer()

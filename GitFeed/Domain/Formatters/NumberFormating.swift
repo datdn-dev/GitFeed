@@ -8,6 +8,9 @@
 import Foundation
 
 protocol NumberFormating {
+    /// Formats a given integer into a human-readable short format (e.g., 1K, 5M+).
+    /// - Parameter number: The number to format.
+    /// - Returns: A formatted string with appropriate suffix (K, M, B).
     func format(_ number: Int) -> String
 }
 

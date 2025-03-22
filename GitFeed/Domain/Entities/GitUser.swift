@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Represents a user with essential details.
 struct GitUser: Codable, Identifiable {
     let id: Int
     let login: String

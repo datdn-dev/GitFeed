@@ -7,12 +7,12 @@
 
 import Foundation
 
+/// Represents a request for paginated GitHub user data.
 struct UserPageRequest {
     let since: Int
     let pageSize: Int
-}
-
-extension UserPageRequest {
+    
+    /// Indicates if this request is for the first page.
     var isFirstPage: Bool {
         return since == 0
     }

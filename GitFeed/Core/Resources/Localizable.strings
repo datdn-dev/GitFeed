@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  GitFeed
+
+  Created by Dat on 22/03/2025.
+  
+*/
+
+"fetching_error_message" = "Oops! Something went wrong. Please refresh or try again later.";
+"follower" = "Follower";
+"following" = "Following";
+"retry" = "Retry";
+"users_list_nav_title" = "Users";
+"user_detail_nav_title" = "User Details";
+"blog" = "Blog";

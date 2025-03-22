@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct GitFeedApp: App {
+    let coordinator = AppCoordinator(dependencies: Dependencies.make())
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppCoordinatorView(coordinator: coordinator)
+                .environmentObject(coordinator)
         }
     }
 }
